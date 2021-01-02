@@ -12,6 +12,6 @@ The training is done with the method introduced by Leslie N. Smith, we use the l
 ### Results:
 The model reaches the Recall of 0.97, Precision of 0.93, and F1 accuracy of 0.95 on the test set. The heat map prediction from the model is depicted below:
 
-<p align="center">
+<p align="Left">
   <img src="pictures/heatmap.jpg" width="436" height="330" title="Heat Map">
 </p>
