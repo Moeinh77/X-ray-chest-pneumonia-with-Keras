@@ -1,7 +1,7 @@
 The goal of this notebook is to offer a general pipeline for dealing with computer vision classification tasks. I utilize transfer learning, fine-tuning, cyclical fit, and learning rate finder methods to increase the accuracy of the network.
 
 ### Dataset and Sampling:
-Dataset is an imbalanced set of pictures of cases with pneumonia and normal ones. The number of pneumonia cases is almost 3 times the normal cases. I tried the under sampling method and reduced the number of pneumonia cases, while the training became faster it appears the final accuracy on test set is still a decent one. I also tried augmentation method for oversampling the normal cases, the result was not much different with under sampling the other class.
+Dataset is an imbalanced set of pictures of cases with pneumonia and normal ones. The number of pneumonia cases is almost 3 times the normal cases. I tried the under-sampling method and reduced the number of pneumonia cases, while the training became faster it appears the final accuracy on the test set is still a decent one. I also tried the augmentation method for oversampling the normal cases, the result was not much different from under-sampling the other class. (the splitting of test and validation sets are a bit questionable because the test set is 600+ images and the validation set includes only 16 pictures, however, I did not change the split since the split had come from the owner of the dataset)
 You can find the dataset here: 
 https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
