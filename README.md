@@ -1,3 +1,5 @@
+![](pictures/cases.jpg)
+
 The goal of this notebook is to offer a general pipeline for dealing with computer vision classification tasks. I utilize transfer learning, fine-tuning, cyclical fit, and learning rate finder methods to increase the accuracy of the network.
 
 ### Dataset and Sampling:
