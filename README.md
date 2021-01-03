@@ -1,3 +1,5 @@
+# X-ray-chest-pneumonia-detection-with-Keras
+
 ![](pictures/cases.jpg)
 
 The goal of the notebook is to offer a general pipeline for dealing with the computer vision classification task. I utilized transfer learning, fine-tuning, cyclical fit, and learning rate finder methods to increase the accuracy of the network.
